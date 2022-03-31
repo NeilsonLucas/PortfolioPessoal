@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano de Faturamento</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="btn.css">
+    <link rel="stylesheet" href="carousel.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <h1 class="logo-portifolio">Neilson Lucas</h1>
+        <nav>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#skills">Minhas skills</a>
+            <a href="#projetos">Projetos</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="sobre" class="conteudo-principal">
+            <div class="conteudo conteudo-principal-escrito">
+                <div>
+                    <h1 class="conteudo-principal-titulo">Olá, eu sou</h1>
+                    <h1 class="conteudo-principal-titulo-destaque typing-animation">Neilson Lucas</h1>
+                    <h1 class="conteudo-principal-titulo">Analista de dados</h2>
+                </div>
+                <img class="conteudo conteudo-principal-imagem img-fluid img-portifolio-celular" src="Imagens/foto.png" alt="Imagem de Edilaine Santos">
+                <div>
+                    <p class="conteudo-principal-paragrafo">Atualmente, sou estudante de Engenharia de produção na UEMA, amo conciliar esse curso com a área de dados, busco me torna o melhor profissional do ramo e um dia iniciar meu próprio negócio.</p>
+                </div>
+                <button class="conteudo-botao"><a class="conteudo-botao-conteudo" href="https://www.linkedin.com/in/neilson-lucas-soares-penha" target="_blank">Acesse meu Linkedin!</a></button>
+            </div>
+            <img class="conteudo conteudo-principal-imagem img-fluid img-portifolio" src="Imagens/foto.png" alt="Imagem de Edilaine Santos">
+        </section>
+
+        <section id="skills" class="conteudo-secundario">
+            <div class="conteudo-secundario-escrito" data-aos="fade-up-right">
+                <h2 class="conteudo-secundario-subtitulo">Minhas skills</h2>
+                <ul class="conteudo-secundario-skills">
+                    <li><abbr title="HTML"><i class="fab fa-html5 html"></abbr></i></li>
+                    <li><abbr title="CSS"><i class="fab fa-css3-alt css"></abbr></i>
+                    <li><abbr title="Bootstrap"><i class="fa-brands fa-bootstrap bootstrap"></i></abbr></li>
+                    </li>
+                    <li><abbr title="Banco de dados"><i class="fas fa-database banco"></abbr></i></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projetos" class="conteudo-projetos">
+            <div class="conteudo-projetos-escrito" data-aos="fade-up-right">
+                <h2 class="conteudo-projetos-subtitulo">Projetos</h2>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        </ol>
+                        
+                            <div class="carousel-inner">
+
+                             <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="conteudo-projetos-trabalho">
+                                    <div class="conteudo-projetos-trabalho-conteudo">
+                                        <h1 class="conteudo-projetos-trabalho-conteudo-titulo">Plano de Faturamento</h1>
+                                        <a href="https://edilaine-as.github.io/java-script/crud%20simples/index.html" target="_blank"><img class="img-fluid img-trabalho img-trabalho-celular" src="Imagens/crud.png" alt="PC"></a>
+                                        <p class="conteudo-projetos-trabalho-conteudo-paragrafo">
+                                            Consiste em decidir quais pedidos vão ser faturados em um intervalo de tempo. 
+                                        </p>
+                                        <p class="conteudo-projetos-trabalho-conteudo-paragrafo">
+                                            Para desenvolver a aplicação utilizei VBA(Excel), Sql, Access e Power BI.
+                                        </p>
+                                        <button class="conteudo-botao"><a class="conteudo-botao-conteudo" href="https://edilaine-as.github.io/java-script/crud%20simples/index.html" target="_blank">Saiba mais!</a></button>
+                                    </div>
+                                    <a href="https://edilaine-as.github.io/java-script/crud%20simples/index.html" target="_blank"><img class="img-fluid img-trabalho img-trabalho-grande" src="Imagens/crud.png" alt="PC"></a>
+                                </div>
+                             </div>
+
+                              <div class="carousel-item" data-bs-interval="10000">
+                                <div class="conteudo-projetos-trabalho">
+                                    <div class="conteudo-projetos-trabalho-conteudo">
+                                        <h1 class="conteudo-projetos-trabalho-conteudo-titulo">Suprimentos</h1>
+                                        <a href="#" target="_blank"><img class="img-fluid img-trabalho img-trabalho-celular" src="Imagens/crud2.png" alt="PC"></a>
+                                        <p class="conteudo-projetos-trabalho-conteudo-paragrafo">
+                                            Visual em Power BI que informa os status das carretas de matéria prima.
+                                        </p>
+                                        <p class="conteudo-projetos-trabalho-conteudo-paragrafo">
+                                            Para desenvolver a aplicação utilizei VBA(Excel), Sql, Access, Power BI e PowerShell.
+                                        </p>
+                                        <button class="conteudo-botao"><a class="conteudo-botao-conteudo" href="#" target="_blank">Saiba mais!</a></button>
+                                    </div>
+                                    <a href="#" target="_blank"><img class="img-fluid img-trabalho img-trabalho-grande" src="Imagens/crud2.png" alt="PC"></a>
+                                </div>
+                              </div>
+
+                              <div class="carousel-item" data-bs-interval="10000">
+                                <div class="conteudo-projetos-trabalho">
+                                    <div class="conteudo-projetos-trabalho-conteudo">
+                                        <h1 class="conteudo-projetos-trabalho-conteudo-titulo">Controle de Refeições</h1>
+                                        <a href="#" target="_blank"><img class="img-fluid img-trabalho img-trabalho-celular" src="Imagens/crud3.png" alt="PC"></a>
+                                        <p class="conteudo-projetos-trabalho-conteudo-paragrafo">
+                                            Ferramenta capaz de registrar o número de refeições realizadas no dia.
+                                        </p>
+                                        <p class="conteudo-projetos-trabalho-conteudo-paragrafo">
+                                            Para desenvolver a aplicação utilizei VBA(Excel).
+                                        </p>
+                                        <button class="conteudo-botao"><a class="conteudo-botao-conteudo" href="#" target="_blank">Saiba mais!</a></button>
+                                    </div>
+                                    <a href="#" target="_blank"><img class="img-fluid img-trabalho img-trabalho-grande" src="Imagens/crud3.png" alt="PC"></a>
+                                </div>
+                              </div>
+
+                              <div class="carousel-item" data-bs-interval="10000">
+                                <div class="conteudo-projetos-trabalho">
+                                    <div class="conteudo-projetos-trabalho-conteudo">
+                                        <h1 class="conteudo-projetos-trabalho-conteudo-titulo">Produção</h1>
+                                        <a href="#" target="_blank"><img class="img-fluid img-trabalho img-trabalho-celular" src="Imagens/crud4.png" alt="PC"></a>
+                                        <p class="conteudo-projetos-trabalho-conteudo-paragrafo">
+                                            Visual em Power BI que informa os indicadores de produção.
+                                        </p>
+                                        <p class="conteudo-projetos-trabalho-conteudo-paragrafo">
+                                            Para desenvolver o dashboard utilizei Sql e Power BI.
+                                        </p>
+                                        <button class="conteudo-botao"><a class="conteudo-botao-conteudo" href="#" target="_blank">Saiba mais!</a></button>
+                                    </div>
+                                    <a href="#" target="_blank"><img class="img-fluid img-trabalho img-trabalho-grande" src="Imagens/crud4.png" alt="PC"></a>
+                                </div>
+                              </div>
+
+                              <div class="carousel-item" data-bs-interval="10000">
+                                <div class="conteudo-projetos-trabalho">
+                                    <div class="conteudo-projetos-trabalho-conteudo">
+                                        <h1 class="conteudo-projetos-trabalho-conteudo-titulo">Demanda</h1>
+                                        <a href="#" target="_blank"><img class="img-fluid img-trabalho img-trabalho-celular" src="Imagens/crud5.png" alt="PC"></a>
+                                        <p class="conteudo-projetos-trabalho-conteudo-paragrafo">
+                                            Visual em Power BI que informa os indicadores de demanda.
+                                        </p>
+                                        <p class="conteudo-projetos-trabalho-conteudo-paragrafo">
+                                            Para desenvolver o dashboard utilizei Sql e Power BI.
+                                        </p>
+                                        <button class="conteudo-botao"><a class="conteudo-botao-conteudo" href="#" target="_blank">Saiba mais!</a></button>
+                                    </div>
+                                    <a href="#" target="_blank"><img class="img-fluid img-trabalho img-trabalho-grande" src="Imagens/crud5.png" alt="PC"></a>
+                                </div>
+                              </div>
+
+                            </div>
+
+                           
+
+                        <a id="btn-prev" class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a id="btn-next" class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Copyright &copy; 2022 Neilson Lucas</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  	<script>
+    	AOS.init({duration: 1000});
+  	</script>
+
+    <script src="https://kit.fontawesome.com/ed10d85a60.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
