@@ -116,7 +116,7 @@ header nav a:hover{
 }
 .conteudo-principal-escrito{
     color: var(--cor-paragrafo);
-    font-family: var(--fonte-paragrafo);
+    font-family: var(--fonte-paragrafo) ;
     max-width: 438px;
     flex-grow: 6;
 	flex-shrink: 1; 
@@ -156,14 +156,16 @@ header nav a:hover{
   transition-delay: 0.5s;
   margin-right: 15px;
 }
+
 .conteudo-principal-titulo-destaque-projeto{
     color: var(--cor-titulo-destaque);
     font-family: var(--fonte-titulo-destaque);
     margin-bottom: 0 !important;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding: 0;
     outline: 0;
 }
+
 /********************************/
 /*CONTEÚDO SECUNDÁRIO - SKILLS***/
 /********************************/
